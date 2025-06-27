@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 input{
-  width: 1400px;
+  width: 100%;
   height: 30vh;
   margin: 30px 0;
   border-radius: 15px;
@@ -28,4 +28,17 @@ button{
   padding: 10px;
   border: none;
   font-size: 15px;
+}
+.findReplace{
+  margin-top: 10px;
+  /* background-color: #0C70FC; */
+}
+.findReplace input{
+height: 15px;
+width: 50% ;
+padding: 10px;
+border: none;
+}
+.findReplace button{
+  margin-left: 10px;
 }
