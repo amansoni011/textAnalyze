@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+.textAnalysis{
+  color: aliceblue;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 1400px;
+  height: 30vh;
+  margin: 30px 0;
+  border-radius: 15px;
+  background-color: #808080;
+  padding: 0;
+}
+.btn{
+  display: flex;
+  gap: 10px;
+}
+button{
+  width: fit-content;
+  background-color: #0C70FC;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+}
